@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     fakeShutdown();
                     break;
                 case "Revoke All SSL Certificates":
-                    confirmAction("Revoke all SSL certificates?", fakeFailure);
+                    revokeSSL();
                     break;
                 case "Launch Firewall Purge":
                     fakeFirewallPurge();
@@ -46,6 +46,10 @@ function fakeShutdown() {
         overlay.innerHTML = `<h1>Shutdown Failed</h1><p>User Lacks Sufficient Privileges</p>`;
         setTimeout(() => document.body.removeChild(overlay), 2000);
     }, 3000);
+}
+
+function revokeSSL() {
+    window.location.replace("privacy-error");
 }
 
 function confirmAction(message, callback) {
