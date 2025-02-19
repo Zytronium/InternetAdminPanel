@@ -40,12 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
 function fakeShutdown() {
     const overlay = document.createElement("div");
     overlay.classList.add("overlay");
-    overlay.innerHTML = `<h1>Shutting Down Internet...</h1><p>Processing...</p>`;
+    overlay.innerHTML = `<h1>Shutting Down Internet... </h1><p>Processing... </p>`;
     document.body.appendChild(overlay);
     setTimeout(() => {
-        overlay.innerHTML = `<h1>Shutdown Failed</h1><p>Unable to connect to the internet to finalize shutdown.</p>`;
-        setTimeout(() => document.body.removeChild(overlay), 2000);
-    }, 3000);
+        overlay.innerHTML = `<h1>Shutdown Failed</h1><p>Unable to connect to the internet to finalize shutdown. </p>`;
+        setTimeout(() => document.body.removeChild(overlay), 3500);
+    }, 4000);
 }
 
 function revokeSSL() {
