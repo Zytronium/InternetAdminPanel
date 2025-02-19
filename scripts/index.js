@@ -116,7 +116,7 @@ function glitchText(text) {
 }
 
 function randomFont() {
-    let fonts = ["'Courier New', monospace", "'Comic Sans MS', cursive", "'Impact', fantasy", "'Verdana', sans-serif", "'Arial Black', sans-serif"];
+    let fonts = ["'Courier New', monospace", "'Comic Sans MS', cursive","'Impact', fantasy", "'Times New Roman'", "'Verdana', sans-serif", "'Arial Black', sans-serif"];
     return fonts[Math.floor(Math.random() * fonts.length)];
 }
 
