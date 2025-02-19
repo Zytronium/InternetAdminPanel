@@ -1,0 +1,136 @@
+:root {
+    --color-background: #252628;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoeuithis.ttf');
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--color-background);
+    color: #8e99a4;
+    margin: 0;
+    padding: 20px;
+    text-align: start;
+}
+
+.container {
+    font-size: 0.95em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+    max-height: 270px;
+    margin: 13.5vh auto 0;
+    background: var(--color-background);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+a {
+    color: #88b0fa;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#icon {
+    margin-bottom: 2.5vh;
+}
+
+.error-details {
+    margin: 20px 0;
+}
+
+.error-code {
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.debugging-content {
+    font-size: x-small;
+}
+
+.debugging-title {
+    font-weight: bold;
+}
+
+.lower-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1em;
+    max-width: 600px;
+    max-height: 260px;
+    margin: 2.5vh auto 0;
+    background: var(--color-background);
+}
+
+.button {
+    background-color: #80abfc;
+    color: var(--color-background);
+    border: none;
+    padding: 8px 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0;
+    text-decoration: none;
+    font-size: 0.825em;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+button {
+    background-color: #80abfc;
+    color: var(--color-background);
+    border: none;
+    padding: 9px 19px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.advanced-button {
+    border: 1px solid gray;
+    background-color: #242426;
+    color: #88b0fa;
+}
+
+.advanced-button:hover {
+    background-color: #303033;
+}
+
+#proceed-link {
+    font-size: 0.8em;
+}
