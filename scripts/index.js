@@ -169,7 +169,7 @@ function showActiveConnections() {
 }
 
 function showUserPermissions() {
-    alert("User Permissions:\nAdmin - Full Access\nUser123 - Read-Only\nGuest - No Access");
+    alert("User Permissions:\nAdmin - Full Access\nSupervisor - Read-Only\nTester - Read-Only\nGuest - Full Access");
 }
 
 function showServerUptime() {
