@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     fakeShutdown();
                     break;
                 case "Revoke All SSL Certificates":
-                    revokeSSL();
+                    confirmAction("Revoke all SSL certificates?", revokeSSL);
                     break;
                 case "Launch Firewall Purge":
                     fakeFirewallPurge();
