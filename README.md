@@ -10,3 +10,5 @@ just might be hiding a funny surprise.
 
 This is currently a major WIP. Not all buttons work, and no other
 pages currently exist.
+
+### [Visit the website here](https://zytronium.github.io/InternetAdminPanel/)
