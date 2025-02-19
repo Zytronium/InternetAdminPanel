@@ -58,10 +58,6 @@ function confirmAction(message, callback) {
     }
 }
 
-function fakeFailure() {
-    alert("Action Failed: Access Denied.");
-}
-
 function fakeFirewallPurge() {
     document.body.classList.add("firewall-warning");
     setTimeout(() => document.body.classList.remove("firewall-warning"), 3000);
