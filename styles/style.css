@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: Arial;
-    src: url(/fonts/ARIAL.TTF);
+    src: url(../fonts/ARIAL.TTF);
 }
 
 .sidebar {
